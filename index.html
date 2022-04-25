@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    
+    
+    <title>Document</title>
+</head>
+<body>
+    <div className="navbar">
+        <Link className="nav-home" to="/">
+          Home
+        </Link>
+        <Link className="nav-list" to="/employees">
+          Employee List
+        </Link>
+        <Link className="nav-admin" to="/admin">
+          Admin
+        </Link>
+        
+        <Link className="nav-logout" to="/logout">
+          Logout
+        </Link>
+  
+        <Link className="nav-login" to="/login">
+          Login
+        </Link>
+      </div>
+      <h3 className="welcome">Welcome To employee management system</h3>
+      <div className="home">
+        <span>Stats</span>
+        <div>
+          Total Employees<span className="totalemp"></span>
+        </div>
+        <div>
+          Total Terminated: <span className="total_terminated"></span>
+        </div>
+        <div>
+          Total Promoted: <span className="total_promoted"></span>
+        </div>
+        <div>
+          Total New: <span className="total_new"></span>
+        </div>
+      </div>
+    
+</body>
+</html>
